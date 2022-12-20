@@ -34,12 +34,12 @@
   <a-scene embedded arjs="detectionMode: mono_and_matrix; matrixCodeType: 3x3;">
     <a-assets>
       <a-asset-item id="gltf"
-        src="https://cdn.jsdelivr.net/gh/canamala/modelBlender@09bcb0c5457e34b06835d3b55094c0b98cac1c67/scene.gltf">
+        src="https://cdn.jsdelivr.net/gh/DiegoBarrientosM/RA@master/Monigote/media/leo.jpg">
       </a-asset-item>
     </a-assets>
     <!-- marker id=0 -->
     <a-marker type="barcode" value="0">
-      <a-entity gltf-model="#gltf"></a-entity>
+      <a-image src="#gltf"></a-image>
     </a-marker>
 
     <a-entity camera></a-entity>
